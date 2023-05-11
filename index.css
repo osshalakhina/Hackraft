@@ -1,0 +1,194 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 20px 10px;
+}
+
+.logo {
+  width: 400px;
+}
+
+p {
+  font-size: 15px;
+}
+
+h1 {
+  font-size: 18px;
+  margin: 10px;
+}
+
+.banners {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.banner {
+  width: 500px;
+  margin: 5px;
+}
+
+.presentation {
+  width: 1010px;
+  height: 550px;
+  margin: 5px;
+}
+
+@media only screen and (max-width: 1023px) {
+  body {
+    margin: 10px 10px;
+  }
+
+  .logo {
+    width: 400px;
+  }
+
+  p {
+    font-size: 15px;
+  }
+
+  h1 {
+    font-size: 17px;
+    margin: 10px;
+  }
+
+  .banners {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .banner {
+    width: 345px;
+    margin: 5px;
+  }
+
+  .presentation {
+    width: 700px;
+    height: 550px;
+    margin: 5px;
+  }
+}
+
+@media only screen and (max-width: 715px) {
+  body {
+    margin: 10px 10px;
+  }
+
+  .logo {
+    width: 350px;
+  }
+
+  p {
+    font-size: 15px;
+  }
+
+  h1 {
+    font-size: 17px;
+    margin: 10px;
+  }
+
+  .banners {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .banner {
+    width: 500px;
+    margin: 5px;
+  }
+
+  .presentation {
+    width: 500px;
+    height: 350px;
+    margin: 5px;
+  }
+}
+
+@media only screen and (max-width: 515px) {
+  body {
+    margin: 10px 10px;
+  }
+
+  .logo {
+    width: 350px;
+  }
+
+  p {
+    font-size: 12px;
+  }
+
+  h1 {
+    font-size: 14px;
+    margin: 10px;
+  }
+
+  .banners {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .banner {
+    width: 400px;
+    margin: 5px;
+  }
+
+  .presentation {
+    width: 400px;
+    height: 250px;
+    margin: 5px;
+  }
+}
+
+@media only screen and (max-width: 415px) {
+  body {
+    margin: 10px 10px;
+  }
+
+  .logo {
+    width: 300px;
+  }
+
+  .banners {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .banner {
+    width: 340px;
+    margin: 5px;
+  }
+
+  .presentation {
+    width: 340px;
+    height: 200px;
+    margin: 5px;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  body {
+    margin: 10px 10px;
+  }
+
+  .logo {
+    width: 200px;
+  }
+
+  .banners {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .banner {
+    width: 290px;
+    margin: 5px;
+  }
+
+  .presentation {
+    width: 290px;
+    height: 180px;
+    margin: 5px;
+  }
+}
