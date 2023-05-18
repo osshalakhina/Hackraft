@@ -1,6 +1,6 @@
 # Hackraft
 
-Works made for DOU Hacathon.
+Works made for Hackraft.
 
 # Preview
 
