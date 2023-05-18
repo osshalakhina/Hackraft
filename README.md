@@ -1,6 +1,6 @@
 # Hackraft
 
-Works made for Hackraft.
+Banners and presentation design.
 
 # Preview
 
